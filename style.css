@@ -1,0 +1,29 @@
+h1,footer{ 
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(43, 204, 11);
+    padding: 10px ;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h3{
+    color: rgb(29, 15, 160);
+}
+p{
+    background-color: rgb(214, 174, 174);
+}
+nav {
+    overflow: hidden;
+   background-color: rgb(0, 0, 0);
+  
+}
+nav a{
+    
+font-family: sans-serif;    
+    color: #ffff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+background-color: rgb(25, 201, 49);
+}
