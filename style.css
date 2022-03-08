@@ -269,7 +269,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "Professional Interests";
+    content: "";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
