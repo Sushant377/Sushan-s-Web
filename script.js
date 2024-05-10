@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [ "Developer", "Blogger", "Designer", "Freelancer","Beatboxer"],
+        strings: [ "MERN Developer","Fitness Trainer", "Web App Developer", "Designer", "Freelancer","Beatboxer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: [ "Developer", "Blogger", "Designer", "Freelancer","Beatboxer"],
+        strings: [ "MERN Developer","Fitness Trainer", "Web App Developer", "Designer", "Freelancer","Beatboxer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -71,3 +71,18 @@ $(document).ready(function(){
         }
     });
 });
+const serviceID = 'default_service';
+const templateID = 'template_xwifdlz';
+function SendMail(){
+    var params ={
+        from_name : document.getElementById("fullName").value,
+        email_id : document.getElementById("email_id").value,
+        message : document.getElementById("message").value,
+    }
+    emailjs.send(serviceID, templateID,params).then(function (res){
+        alert("Sent Successfully")
+    })
+    .catch(function (error){
+        alert ("OOPS! Something went wrong ");
+    })
+}
