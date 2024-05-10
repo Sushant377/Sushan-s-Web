@@ -12,7 +12,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('fpCRVbJYzj8VgoU6N')
+      </script>
 </head>
 <body>
     <div class="scroll-up-btn">
@@ -20,14 +23,15 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Nama<span>Ste.</span></a></div>
+            <div class="logo"><a href="#">SUS<span>HAN </span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">My Interests</a></li> 
+                <li><a href="#services" class="menu-btn">My Interest</a></li> 
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">More</a></li> 
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#teams" class="menu-btn">More</a></li> 
+
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -39,7 +43,7 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Hello, I am</div>
+                <div class="text-1">Hello World , I am</div>
                 <div class="text-2">Sushan Lamichhane</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
                 <a href="#">Good Day</a>
@@ -50,15 +54,16 @@
     <!-- about section start -->
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">About me</h2>
+            <h2 class="title">About Me</h2>
             <div class="about-content">
                 <div class="column left">
                     <img src="images/profile-1.jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Sushan and I'm a <span class="typing-2"></span></div>
-                    <p> Welcome to my site. I am an IT student currently studying Bsc.CSIT at Nist College Affiliated to TU.
-                     I want to establish an IT company in future and make impact on society through IT..</p>
+                    <p>Welcome to my portfolio. I am currently pursuing my Bachelor's in Computer Science and Information Technology (BSc.CSIT).</p>
+                    <p>As a MERN stack developer, I specialize in creating dynamic web applications and engaging websites. My passion lies in leveraging technology to solve real-world problems and create meaningful experiences for users.</p>
+                    <p>In the future, I aspire to establish an innovative IT company that makes a positive impact on society through cutting-edge technology solutions.</p>
                     <a href="#">Download CV</a>
                 </div>
             </div>
@@ -73,19 +78,19 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text"> Web Development</div>
+                        <div class="text">Politics</div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">Graphics Designing</div>
+                        <div class="text">Body Building</div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
-                        <div class="text">Apps/Software Development</div>
+                        <div class="text">Programming</div>
                     </div>
                 </div>
                </div>
@@ -101,25 +106,25 @@
                 <div class="column left">
                     <div class="text"> </div>
                     <p>
-                        I am a junior  software and web developer. I am also learning graphics designing. I am learning programming language like C , C++ , HTML ,CSS , Java script etc.
-                        
-                        .</p>
+                        I am a software and web developer with a strong focus on JavaScript development, particularly in the MERN stack (MongoDB, Express.js, React.js,.Net, Node.js). I am also passionate about graphics designing and constantly refining my skills in languages like C, C++, HTML, CSS, and JavaScript.
+                      </p>
+                      
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
-                            <span>HTML</span>
+                            <span>MERN Stack</span>
                             <span>90%</span>
                         </div>
                         <div class="line html"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
+                            <span>React JS</span>
+                            <span>80%</span>
                         </div>
-                        <div class="line css"></div>
+                        <div class="line mysql"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
@@ -130,14 +135,21 @@
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>C++</span>
-                            <span>50%</span>
+                            <span>C#</span>
+                            <span>60%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>C</span>
+                            <span>MySQL</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>C,C++</span>
                             <span>80%</span>
                         </div>
                         <div class="line mysql"></div>
@@ -150,7 +162,7 @@
     <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">More Interests</h2>
+            <h2 class="title">More Interest</h2>
             <div class="carousel owl-carousel">
                 
                 <div class="card">
@@ -169,13 +181,15 @@
                     <div class="box">
                         <img src="images/profile-4.jpg" alt="">
                         <div class="text">Body Building</div>
-<p>I'm an intermediate level body builder and I go to the gym everyday.</p>                    </div>
+                        <p>As a dedicated fitness trainer, I prioritize my daily routine at the gym.</p>
+                    </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <img src="images/profile-5.jpg" alt="">
                         <div class="text">Beatbox</div>
-<p>I'm an intermediate level beatboxer and make more than 40 sounds from mouth.</p>                    </div>
+                        <p>As an intermediate-level beatboxer, I can produce over 40 distinct sounds using just my mouth.</p>
+                    </div>
                 </div>  
                 <div class="card">
                     <div class="box">
@@ -203,7 +217,7 @@
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
+            <h2 class="title">Contact M e</h2>
             <div class="contact-content">
                 <div class="column left">
             
@@ -278,20 +292,17 @@
                     <form action="#">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" id="fullName" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" id="email_id" placeholder="Email" required>
                             </div>
                         </div>
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea id="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                            <button onclick="SendMail()" type="submit">Send message</button>
                         </div>
                     </form>
                 </div>
